@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src/**",
-    "lint-fix": "eslint src/** --fix"
+    "lint-fix": "eslint src/** --fix",
+    "success-message": "echo Thanks for committing $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +18,8 @@
     "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.0",
     "jest": "^26.6.3",
-    "lint-staged": "^10.5.1",
-    "success-message": "echo Thanks for committing $GIT_AUTHOR_NAME"
+    "lint-staged": "^10.5.1"
+    
   },
   "husky": {
     "hooks": {
